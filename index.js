@@ -1,7 +1,7 @@
-const inquirer = require("inquirer");
+const inquirer = require ('inquirer');
 const fs = require("fs");
-const { generateSVG } = require("./library/generateSVG");
-const { generateShape } = require("./library/generateShape");
+const { generateSVG } = require("./lib/generateSVG");
+const { generateShape } = require("./lib/generateShape");
 
 inquirer
   .prompt([
@@ -28,7 +28,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const svgPath = "./dist/logo.svg";
+    const svgPath = "./logo/logo.svg";
     const finalLogo = generateShape(data);
 
     //Generate the svg logo here.

@@ -9,3 +9,4 @@ AS a web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to hire a graphic designer
 
+## Video Tutorial

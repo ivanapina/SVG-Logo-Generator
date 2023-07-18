@@ -8,17 +8,17 @@ inquirer
     {
       type: "input",
       name: "logoName",
-      message: "Please enter 1-3 letters for your logo",
+      message: "Please enter 1 to 3 letters for your logo",
     },
     {
       type: "input",
       name: "textColor",
-      message: `Please enter text color keyword or a hexadecimal number as the logo's text color`,
+      message: `Please enter color keyword or hexadecimal number for the logo's text color`,
     },
     {
       type: "input",
       name: "logoColor",
-      message: `Please enter a color keyword or a hexadecimal number as the logo's background color`,
+      message: `Please enter color keyword or hexadecimal number for the logo's background color`,
     },
     {
       type: "list",
